@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out this form with the required information</p>
+  <form id="survey-form">
+    <fieldset>
+
+      <label id="name-label"> Enter Your Name:
+    <input id="name" type="text" placeholder="Enter your name" required/>
+    </label>
+
+      <label id="email-label"> Enter Your Email:
+    <input id="email" type="email" placeholder="Enter your Email" required/>
+     </label>
+
+      <label id="number-label"> Enter your Age:
+    <input id="number" type="number" min="10" max="100" placeholder="Age" required/>
+  </label>
+    </fieldset>
+    <fieldset>
+      <label> Which option best describes your current role?
+      <select id="dropdown">
+        <option value=""> (select one)</option>
+        <option value="1"> Student</option>
+        <option value="2"> Part Time Job</option>
+       <option value="3"> Full Time Job</option>
+      <option value="4"> Other</option>
+      </select>
+      </label>
+    </fieldset>
+
+    <fieldset>Would you recommend Our App to a friend?
+      <label>
+    <input  class="inline" name="referral" id="referral1" value="definitly" type="radio"/>Definitely
+      </label>
+      <label>
+    <input  class="inline" name="referral" id="referral2" value="maybe" type="radio"/> Maybe
+  </label>
+      <input  class="inline" name="referral" id="referral3" value="notSure"  type="radio"/> Not Sure
+      </label>
+    </fieldset>
+    <fieldset>
+      <label> What is your favorite feature of Our App?
+      <select id="dropdown2">
+        <option value=""> (select one)</option>
+        <option value="ui"> The User Interfcae</option>
+        <option value="community">Community</option>
+       <option value="helpCenter">Help center</option>
+      <option value="other"> Other</option>
+      </select>
+      </label>
+    </fieldset>
+    <fieldset>What would you like to see improved?
+      <label>
+    <input class="inline" name="improve" id="improve1" value="appUi" type="checkbox"/>The Application User InterFace 
+      </label>
+      <label><input class="inline" type="checkbox" name="improve" value="challanges" id="improve2" value=""/>Challenges</label>
+      <label>
+    <input  class="inline" name="improve" id="improve3" value="videos" type="checkbox"/> Videos
+  </label>
+      <input class="inline" name="improve" value="forum" id="improve4" type="checkbox"/> Forum
+      </label>
+      <label><input class="inline" type="checkbox" value="help" name="improve" id="improve5"/>Help Center</label>
+      <label><input class="inline" type="checkbox" value="others" name="improve" id="improve6"/>Others</label>
+
+    </fieldset>
+
+    <fieldset>
+      <label id="comment">Any comments or suggestions?
+          <textarea id="comment" name="comment" rows="3" cols="30" placeholder="Write your comments here..."></textarea>
+        </label>
+    </fieldset>
+
+    <input type="submit" id="submit" value="Submit" />
+  </form>
+</body>
+
+</html>
