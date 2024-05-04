@@ -1,0 +1,165 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-img {
+  width: 150px;
+  height: auto;
+}
+
+#nav-bar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px; /* Adjust padding for smaller screens */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+#nav-bar li {
+  margin-right: 20px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#hero {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#form {
+  margin-top: 20px;
+}
+
+#email {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+#features {
+  padding: 50px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 3em;
+}
+
+.desc {
+  margin-top: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.level {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  margin: 10px 0;
+}
+
+.product ol {
+  margin: 0;
+  padding: 0;
+}
+
+.product ol li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer span {
+  display: block;
+  margin-top: 10px;
+}
+ol {
+  list-style: none;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  #nav-bar {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust grid layout for smaller screens */
+  }
+}
