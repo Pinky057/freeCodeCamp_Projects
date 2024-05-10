@@ -7,4 +7,5 @@
  ### [Build a Tribute Page - responsive-web-design (certification project)](https://github.com/Pinky057/freeCodeCamp_Projects/tree/Build-a-Tribute-Page)
  ### [Build a Roman Numeral Converter -JavaScript Algorithms and Data Structures (Beta) (certification project)](https://github.com/Pinky057/freeCodeCamp_Projects/tree/Build-a-Roman-Numeral-Converter)
  ### [Build a Palindrome Checker -JavaScript Algorithms and Data Structures (Beta) (certification project)](https://github.com/Pinky057/freeCodeCamp_Projects/tree/Build-a-Palindrome-Checker)
+ ### [Build a Telephone Number Validator -JavaScript Algorithms and Data Structures (Beta) (certification project)](https://github.com/Pinky057/freeCodeCamp_Projects/tree/Build-a-Telephone-Number-Validator)
 
